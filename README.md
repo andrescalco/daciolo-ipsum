@@ -26,9 +26,9 @@ The options can be set on an object passed as a parameter, like the example abov
 
 ``` javascript
 const quote = DACIOLO.generate_quote({
-	paragrahps: 20,
-	quotes_per_paragraph: 4,
-	wrap_with_paragraph_tags: true,
+  paragrahps: 20,
+  quotes_per_paragraph: 4,
+  wrap_with_paragraph_tags: true,
 })
 
 console.log(quote)
