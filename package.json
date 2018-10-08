@@ -1,0 +1,33 @@
+{
+  "name": "daciolo-ipsum",
+  "version": "1.0.0",
+  "description": "O melhor Ipsum para a Glória do Senhor Jesus",
+  "main": "daciolo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrescalco/daciolo-ipsum.git"
+  },
+  "author": "Andre Scalco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrescalco/daciolo-ipsum/issues"
+  },
+  "homepage": "https://github.com/andrescalco/daciolo-ipsum#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-js-minify": "0.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-watch": "^5.0.1"
+  }
+}
