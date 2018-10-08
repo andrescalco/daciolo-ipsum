@@ -4,6 +4,7 @@
   "description": "O melhor Ipsum para a Glória do Senhor Jesus",
   "main": "daciolo.js",
   "scripts": {
+    "build": "node_modules/.bin/gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
