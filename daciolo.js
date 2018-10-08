@@ -1,4 +1,4 @@
-o que o senhor pode falar aqui para a nação Brasileira sobre o plano Ursal?
+
 
 const DACIOLO = (function(){
 
