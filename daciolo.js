@@ -26,7 +26,7 @@ const DACIOLO = (function(){
 		'O que eu vou falar aqui vai parecer loucura para muitos, mas eu prefiro a loucura de Deus a sabedoria dos homens',
 		'Digo a todos que juntos somos fortes, que nenhum passo demos para trás e que Deus está no controle.',
 		'O que o senhor pode falar aqui para a nação Brasileira sobre o plano Ursal?',
-		'Usal, União da Republica Socialista Latino Americana.',
+		'Ursal, União da Republica Socialista Latino Americana.',
 		'Nova ordem mundial.',
 		'No nosso governo, o comunismo não vai ter vez!',
 		'Para honra e glória do Senhor Jesus Cristo.',
