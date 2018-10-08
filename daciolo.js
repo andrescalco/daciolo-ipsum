@@ -19,13 +19,21 @@ const DACIOLO = (function(){
 		'Vou fazer auditoria da dívida',
 		'Tá chegando o momento de clamarmos a Deus.',
 		'Com fé, esperança e amor.',
-		'Em nome do senhor Jesus, tá chegando a transformação.',
+		'Em nome do Senhor Jesus, tá chegando a transformação.',
 		'Em nome do Senhor Jesus.',
 		'Deus está no controle! Glória a Deus.',
 		'Glória a Deus! Glória a Deus!',
 		'O que eu vou falar aqui vai parecer loucura para muitos, mas eu prefiro a loucura de Deus a sabedoria dos homens',
 		'Digo a todos que juntos somos fortes, que nenhum passo demos para trás e que Deus está no controle.',
-		'O que o senhor pode falar aqui para a nação Brasileira sobre o plano Ursal?'			
+		'O que o senhor pode falar aqui para a nação Brasileira sobre o plano Ursal?',
+		'Ursal, União da Republica Socialista Latino Americana.',
+		'Nova ordem mundial.',
+		'No nosso governo, o comunismo não vai ter vez!',
+		'Para honra e glória do Senhor Jesus Cristo.',
+		'A bandeira nascional coloca ordem e progresso, nunca tivemos ordem nem progresso no país.',
+		'A democracia é uma delícia!',
+		'Infelizmente, infelizmente o mar de lama e corrupção está no meio dos engravatados que não estão do lado do povo.'
+
 	];
 
 	const generate_quote = (options) => {
