@@ -28,13 +28,13 @@ const DACIOLO = (function(){
 	const generate_quote = (options) => {
 
 		const args = { ...defaults, ...options }
-		const { paragrahps, quotes_per_paragraph, wrap_with_paragraphs_tags } = args;
+		const { paragrahps, quotes_per_paragraph, wrap_with_paragraph_tags } = args;
 
 		let text = "";
 
 		for (let i = 1; i <= paragrahps; i++) {
 			
-			if ( wrap_with_paragraphs_tags ) {
+			if ( wrap_with_paragraph_tags ) {
 				text += '<p>'
 			}
 
@@ -43,7 +43,7 @@ const DACIOLO = (function(){
 				text += " ";
 			}
 
-			if ( wrap_with_paragraphs_tags ) {
+			if ( wrap_with_paragraph_tags ) {
 				text += '</p>'
 			} else {
 				text += ` \n`;
