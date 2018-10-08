@@ -1,3 +1,5 @@
+
+
 const DACIOLO = (function(){
 
 	const defaults = {
@@ -22,7 +24,8 @@ const DACIOLO = (function(){
 		'Deus está no controle! Glória a Deus.',
 		'Glória a Deus! Glória a Deus!',
 		'O que eu vou falar aqui vai parecer loucura para muitos, mas eu prefiro a loucura de Deus a sabedoria dos homens',
-		'Digo a todos que juntos somos fortes, que nenhum passo demos para trás e que Deus está no controle.'
+		'Digo a todos que juntos somos fortes, que nenhum passo demos para trás e que Deus está no controle.',
+		'O que o senhor pode falar aqui para a nação Brasileira sobre o plano Ursal?'			
 	];
 
 	const generate_quote = (options) => {
