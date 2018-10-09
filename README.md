@@ -19,8 +19,8 @@ console.log(quote)
 
 Key | Type | Default | Description
 --- | --- | --- | ---
-paragrahps | Number | 1 | Number of paragraphs requested
-quotes_per_paragraph | Number | 1 | Number of quotes per paragraph
+paragrahps | Number | 2 | Number of paragraphs requested
+quotes_per_paragraph | Number | 3 | Number of quotes per paragraph
 wrap_with_paragraph_tags | Boolean | false | Wrap your ipsum with `<p>` tags
 
 The options can be set on an object passed as a parameter, like the example above:
