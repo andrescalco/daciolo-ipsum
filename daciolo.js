@@ -35,7 +35,7 @@ const DACIOLO = (function(){
 		'Infelizmente, infelizmente o mar de lama e corrupção está no meio dos engravatados que não estão do lado do povo.',
 		'Eu sou o Cabo Daciolo, servo do Deus vivo!',
 		'São 9 horas da manhã e eles não estão bêbados! É o espírito santo de Deus!',
-		'Tá repreendido em nome do Senhor Jesus!'
+		'Tá repreendido em nome do Senhor Jesus!',
 		'Ta repreendido em nome do nosso Senhor Jesus.',
 		'Satanás, pegue tudo que é seu e saia da noção brasileira.',
 		'Quero falar algo mais aqui pra nação brasileira:',
@@ -47,7 +47,8 @@ const DACIOLO = (function(){
 		'Infraestrutura e saneamento são importantíssimo pra oxigenar o nosso país.',
 		'Eu sei quais são os nossos adversários.',
 		'Pra você vencer o mal você não retribui o mal com mal.',
-		'Pegaram o dinheiro do Brasil e colocaram fora do Brasil. Colocaram na Venezuela, no Peru, na Argentina.',
+		'Pegaram o dinheiro do Brasil e colocaram fora do Brasil.',
+		'Colocaram na Venezuela, no Peru, na Argentina.',
 		'Deixa eu falar uma coisa, tem um perigo eminente acontecendo, uma guerra próxima de estourar',
 		'A nova ordem mundial ta escravizando nosso povo há anos.',
 		'Chega, chega, chega!',
