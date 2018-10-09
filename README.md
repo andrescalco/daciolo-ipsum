@@ -34,3 +34,23 @@ const quote = DACIOLO.generate_quote({
 
 console.log(quote)
 ```
+
+### Development
+
+* Install dependencies
+
+```bash
+npm install
+```
+
+* Working on site
+
+```bash
+npm run dev
+```
+
+* Build
+
+```bash
+npm run build
+```

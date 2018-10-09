@@ -5,6 +5,7 @@
   "main": "daciolo.js",
   "scripts": {
     "build": "node_modules/.bin/gulp",
+    "dev": "node_modules/.bin/gulp dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.1",
     "gulp-uglify-es": "^1.0.4",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "browser-sync": "^2.26.0"
   }
 }
