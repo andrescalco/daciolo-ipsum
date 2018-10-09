@@ -33,6 +33,9 @@ const DACIOLO = (function(){
 		'A bandeira nascional coloca ordem e progresso, nunca tivemos ordem nem progresso no país.',
 		'A democracia é uma delícia!',
 		'Infelizmente, infelizmente o mar de lama e corrupção está no meio dos engravatados que não estão do lado do povo.',
+		'Eu sou o Cabo Daciolo, servo do Deus vivo!',
+		'São 9 horas da manhã e eles não estão bêbados! É o espírito santo de Deus!',
+		'Tá repreendido em nome do Senhor Jesus!'
 		'Ta repreendido em nome do nosso Senhor Jesus.',
 		'Satanás, pegue tudo que é seu e saia da noção brasileira.',
 		'Quero falar algo mais aqui pra nação brasileira:',
@@ -54,7 +57,6 @@ const DACIOLO = (function(){
 		'Eu tô aqui agradecendo a Deus agora.',
 		'Eu amo todos os senhores.',
 		'Pela honra e glória do nosso Senhor Jesus.'
-
 	];
 
 	const generate_quote = (options) => {
