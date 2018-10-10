@@ -57,7 +57,9 @@ const DACIOLO = (function(){
 		'Eu acredito em sinais.',
 		'Eu tô aqui agradecendo a Deus agora.',
 		'Eu amo todos os senhores.',
-		'Pela honra e glória do nosso Senhor Jesus.'
+		'Pela honra e glória do nosso Senhor Jesus.',
+		'Na primeira semana, vamos adorar o Senhor.',
+		'Somos o único país onde não existe o voto impresso. Temos que mergulhar e trabalhar pelo voto em cédula, porque existem fraudes nas urnas eletrônicas.'
 	];
 
 	const generate_quote = (options) => {
