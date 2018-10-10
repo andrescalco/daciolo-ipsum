@@ -14,7 +14,8 @@ gulp.task('minify-js', () => {
 		this.emit('end');
 	})
 	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest(''));
+  .pipe(gulp.dest(''))
+  .pipe(gulp.dest('docs'));
 });
 
 gulp.task('dev-server', function() {
@@ -29,6 +30,8 @@ gulp.task('dev-server', function() {
     gulp.watch('./docs/*.js', server.reload);
 });
 
-gulp.task('default', ['minify-js'], function() {
+gulp.task('build', ['minify-js']);
+
+gulp.task('default', ['minify-js', 'dev-server'], function() {
 	return gulp.watch('daciolo.js', ['minify-js']);
 });
