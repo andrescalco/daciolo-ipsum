@@ -57,7 +57,10 @@ const DACIOLO = (function(){
 		'Eu acredito em sinais.',
 		'Eu tô aqui agradecendo a Deus agora.',
 		'Eu amo todos os senhores.',
-		'Pela honra e glória do nosso Senhor Jesus.'
+		'Pela honra e glória do nosso Senhor Jesus.',
+		'O grande problema que a nação está enfrentando hoje é a falta de amor.',
+		'A urna eletrônica, o que o senhor tem a falar delas?',
+		'Nunca me colocaram em percentual nenhum de pesquisa, nem pra colocar 0%."'
 	];
 
 	const generate_quote = (options) => {
