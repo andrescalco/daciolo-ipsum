@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "O melhor Ipsum para a Glória do Senhor Jesus",
   "main": "daciolo.js",
+  "types": "daciolo.d.ts",
   "scripts": {
     "build": "node_modules/.bin/gulp",
-    "dev": "node_modules/.bin/gulp dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jest.config.json --ci --runInBand --detectOpenHandles --forceExit --no-cache"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,12 @@
     "gulp-uglify": "^3.0.1",
     "gulp-uglify-es": "^1.0.4",
     "gulp-watch": "^5.0.1",
-    "browser-sync": "^2.26.0"
+    "husky": "^1.1.1",
+    "jest": "^23.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build && npm test"
+    }
   }
 }

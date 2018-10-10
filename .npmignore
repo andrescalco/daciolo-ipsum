@@ -1,0 +1,10 @@
+coverage/
+docs/
+node_modules/
+tests/
+.gitignore
+.travis.yml
+daciolo.min.js
+gulpfile.js
+jest.config.json
+package-lock.json

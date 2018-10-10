@@ -4,7 +4,6 @@ const rename = require('gulp-rename');
 const watch = require('gulp-watch');
 const uglify = require('gulp-uglify-es').default;
 const babel = require('gulp-babel');
-const browserSync = require('browser-sync');
 
 gulp.task('minify-js', () => {
 	return gulp.src('daciolo.js')
@@ -15,18 +14,6 @@ gulp.task('minify-js', () => {
 	})
 	.pipe(rename({suffix: '.min'}))
 	.pipe(gulp.dest(''));
-});
-
-gulp.task('dev-server', function() {
-	const server = browserSync.create();
-	server.init({
-        server: {
-            baseDir: "./docs"
-        }
-    });
-    gulp.watch('./docs/*.html', server.reload);
-    gulp.watch('./docs/*.css', server.reload);
-    gulp.watch('./docs/*.js', server.reload);
 });
 
 gulp.task('default', ['minify-js'], function() {
