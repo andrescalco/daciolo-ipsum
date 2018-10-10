@@ -1,4 +1,13 @@
-exports.DACIOLO = (function(){
+;(function (root, factory) {
+	'use strict'
+	if (typeof define === 'function' && define.amd) {
+		define('DACIOLO', factory)
+	} else if (typeof exports === 'object') {
+		exports = module.exports = factory()
+	} else {
+		root.DACIOLO = factory()
+	}
+})(this, function () {
 
 	const defaults = {
 		paragraphs: 2,
@@ -100,4 +109,4 @@ exports.DACIOLO = (function(){
 		generate_quote
 	}
 
-})()
+})
