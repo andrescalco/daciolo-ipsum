@@ -1,4 +1,4 @@
-const DACIOLO = require('daciolo').DACIOLO;
+const DACIOLO = require('daciolo');
 
 describe('Testing generate_quote function', () => {
     const paragraphs = 1;
