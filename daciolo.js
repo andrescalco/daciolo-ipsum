@@ -60,7 +60,10 @@ const DACIOLO = (function(){
 		'Pela honra e glória do nosso Senhor Jesus.',
 		'O grande problema que a nação está enfrentando hoje é a falta de amor.',
 		'A urna eletrônica, o que o senhor tem a falar delas?',
-		'Nunca me colocaram em percentual nenhum de pesquisa, nem pra colocar 0%."'
+		'Nunca me colocaram em percentual nenhum de pesquisa, nem pra colocar 0%.',
+		'Na primeira semana, vamos adorar o Senhor.',
+		'Somos o único país onde não existe o voto impresso.',
+    'Temos que mergulhar e trabalhar pelo voto em cédula, porque existem fraudes nas urnas eletrônicas.'
 	];
 
 	const generate_quote = (options) => {
