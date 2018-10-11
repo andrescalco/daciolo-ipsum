@@ -5,7 +5,7 @@ const generateQuote = (e) => {
 
 	const quote = DACIOLO.generate_quote({
 		wrap_with_paragraph_tags: true,
-		paragrahps: number_of_paragraphs ? number_of_paragraphs : 2
+		paragraphs: number_of_paragraphs ? number_of_paragraphs : 2
 	})
 
 	console.log(quote)
