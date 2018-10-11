@@ -12,7 +12,8 @@
     "coverageDirectory": "./coverage",
     "testRegex": "(./tests/.*| (\\.|/)(test|spec))\\.(jsx?)$",
     "moduleNameMapper": {
-        "daciolo": "<rootDir>/daciolo.js"
+        "daciolo": "<rootDir>/daciolo.js",
+        "quotes": "<rootDir>/quotes.js"
     },
     "coveragePathIgnorePatterns": [
         "./node_modules/",
