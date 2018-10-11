@@ -75,6 +75,7 @@
     'Nós somos o que nós vemos, o que nós lemos e com quem nós andamos.',
     'Vocês já estão em todos os Estados da nação.',
     'Eu vou mostrar pra você que eles tão colocando isso em todo território nacional.',
+		'Esse aqui é meu telefone, ele tem o básico que eu preciso, que é verdadeiramente a lanterna pra poder subir os montes, dura 3 dias e se cair da mão, não quebra.',
 	];
 
 	const generate_quote = (options) => {
@@ -86,6 +87,7 @@
 
 		for (let i = 1; i <= paragraphs; i++) {
 			
+
 			if ( wrap_with_paragraph_tags ) {
 				text += '<p>'
 			}
