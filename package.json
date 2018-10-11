@@ -5,7 +5,8 @@
   "main": "daciolo.js",
   "types": "daciolo.d.ts",
   "scripts": {
-    "build": "node_modules/.bin/gulp",
+    "build": "gulp build",
+    "dev": "gulp",
     "test": "jest --config jest.config.json --ci --runInBand --detectOpenHandles --forceExit --no-cache"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-js-minify": "0.0.3",
