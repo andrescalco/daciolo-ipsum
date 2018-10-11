@@ -72,7 +72,9 @@
 		'Na primeira semana, vamos adorar o Senhor.',
 		'Somos o único país onde não existe o voto impresso.',
 		'Temos que mergulhar e trabalhar pelo voto em cédula, porque existem fraudes nas urnas eletrônicas.',
-		'Nós somos o que nós vemos, o que nós lemos e com quem nós andamos.',
+    'Nós somos o que nós vemos, o que nós lemos e com quem nós andamos.',
+    'Vocês já estão em todos os Estados da nação.',
+    'Eu vou mostrar pra você que eles tão colocando isso em todo território nacional.',
 	];
 
 	const generate_quote = (options) => {
