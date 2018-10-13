@@ -76,6 +76,10 @@
     'Vocês já estão em todos os Estados da nação.',
     'Eu vou mostrar pra você que eles tão colocando isso em todo território nacional.',
 		'Esse aqui é meu telefone, ele tem o básico que eu preciso, que é verdadeiramente a lanterna pra poder subir os montes, dura 3 dias e se cair da mão, não quebra.',
+		'Abandone a Maçonaria, abandone o Satanismo e vem correndo para Deus, vem correndo para Jesus Cristo!',
+		'Eu quero dizer, deputado Jean Wyllys, que eu te amo irmão. Mas falar que eu te amo é muito simples, eu quero dizer irmão, que Jesus Cristo te ama.',
+		'Quero dizer as forças armadas, os comandantes das forças armadas: os senhores são fracos!',
+		'O espírito santo tem tocado o teu coração!',
 	];
 
 	const generate_quote = (options) => {
@@ -86,7 +90,7 @@
 		let text = "";
 
 		for (let i = 1; i <= paragraphs; i++) {
-			
+
 
 			if ( wrap_with_paragraph_tags ) {
 				text += '<p>'
