@@ -80,6 +80,8 @@
 		'Eu quero dizer, deputado Jean Wyllys, que eu te amo irmão. Mas falar que eu te amo é muito simples, eu quero dizer irmão, que Jesus Cristo te ama.',
 		'Quero dizer as forças armadas, os comandantes das forças armadas: os senhores são fracos!',
 		'O espírito santo tem tocado o teu coração!',
+		'A população brasileira tem hoje 208 milhões de pessoas',
+		'Nos vamos transformar a nação Brasileira'
 	];
 
 	const generate_quote = (options) => {
